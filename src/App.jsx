@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://condominio-api.onrender.com";
+const apiBaseUrl = "https://condominio-api-pq4j.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
